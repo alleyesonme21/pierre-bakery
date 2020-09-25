@@ -23,7 +23,7 @@ namespace PierreBakery.Tests
   {
     [TestMethod] 
     public void GetCost_ReturnCost_int() {
-      Assert.AreEqual(5, Pastry.costSolver(2));
+      Assert.AreEqual(3, Pastry.costSolver(2));
     }
   }
 
