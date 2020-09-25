@@ -12,7 +12,7 @@ namespace PierreBakery.Tests
   {
     [TestMethod]
     public void GetLetter_ReturnLetter_int() {
-      Assert.AreEqual(3, Bread.priceSolver(1));
+      Assert.AreEqual(10, Bread.priceSolver(2));
     }
     
   }
