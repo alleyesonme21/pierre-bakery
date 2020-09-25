@@ -1,6 +1,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Collections.Generic;
 using PierreBakery.Models;
+using PierreBakery.ModelsP;
 using System;
 
 
@@ -16,5 +17,15 @@ namespace PierreBakery.Tests
     }
     
   }
+
+ [TestClass]
+  public class PierreBakeryTestsOne
+  {
+    [TestMethod] 
+    public void GetCost_ReturnCost_int() {
+      Assert.AreEqual(5, Pastry.costSolver(2));
+    }
+  }
+
 }
  
