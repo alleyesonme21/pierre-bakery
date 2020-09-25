@@ -5,16 +5,16 @@ namespace PierreBakery.ModelsP
 
   public class Pastry
   {
-    public static int costSolver(int num) 
+    public static int costSolver(int num)
     {
-      if (num == 1) {
-        return 2;
-      } else if (num == 2) {
-        return 4;
-      } else {
-        return num * 5;
-      }
-    }
 
+       if (num % 3 == 0) {
+       return num * (5 - 2);
+     } else {
+       return num *  (5 - 2 );
+     }
+
+
+    }
+    }
   }
-}

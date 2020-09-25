@@ -10,7 +10,6 @@ namespace PierreBakery.Models
        return num * 5;
      }
     }
-    
 
   }
 }
