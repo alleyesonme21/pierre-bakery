@@ -1,9 +1,6 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System.Collections.Generic;
 using PierreBakery.Models;
 using PierreBakery.ModelsP;
-using System;
-
 
 namespace PierreBakery.Tests
 {
@@ -13,19 +10,18 @@ namespace PierreBakery.Tests
   {
     [TestMethod]
     public void GetPrice_ReturnPrice_int() {
-      Assert.AreEqual(10, Bread.priceSolver(2));
+      Assert.AreEqual(13, Bread.priceSolver(3));
     }
     
   }
 
- [TestClass]
+  [TestClass]
   public class PierreBakeryTestsOne
   {
     [TestMethod] 
     public void GetCost_ReturnCost_int() {
-      Assert.AreEqual(7, Pastry.costSolver(4));
+      Assert.AreEqual(12, Pastry.costSolver(11));
     }
   }
 
 }
- 
