@@ -4,12 +4,16 @@ namespace PierreBakery.Models
   {
     public static int priceSolver(int num)
     {
-     if (num == 1){
-       return 5;
-     } else {
+      if (num == 1){
+        return 5;
+      } else {
        return num * 5;
-     }
+      }
     }
 
   }
-}
+}  
+
+
+
+
