@@ -3,18 +3,34 @@ using System;
 namespace PierreBakery.ModelsP
 {
 
-  public class Pastry
+  public class Pastry 
   {
-    public static int costSolver(int num)
+  
+ public int Num { get; set; }
+  
+    public  static int costSolver(int num)  
     {
-
-       if (num % 3 == 0) {
-       return num * (5 - 2);
-     } else {
-       return num *  (5 - 2 );
-     }
-
-
-    }
+      int Num = num;
+      
+      if (Num == 1) {
+        return 2;
+      } else if (Num == 2) {
+        return 4;
+      } else if (Num % 3 == 0) {
+        return (Num / 3) * 5;
+      } else if (Num % 3 == 1){
+        return (Num - 1) / 3 * 5 + 2;
+      } else if (Num % 3 == 2) {
+        return (Num - 2) / 3 * 5 + 2 + 2 ;
+      } else {
+        return 0;
+      }
     }
   }
+}
+
+
+
+
+
+
