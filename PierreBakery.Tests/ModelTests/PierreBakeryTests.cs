@@ -10,7 +10,7 @@ namespace PierreBakery.Tests
   {
     [TestMethod]
     public void GetPrice_ReturnPrice_int() {
-      Assert.AreEqual(13, Bread.priceSolver(3));
+      Assert.AreEqual(15, Bread.priceSolver(3));
     }
     
   }
@@ -20,7 +20,7 @@ namespace PierreBakery.Tests
   {
     [TestMethod] 
     public void GetCost_ReturnCost_int() {
-      Assert.AreEqual(12, Pastry.costSolver(11));
+      Assert.AreEqual(19, Pastry.costSolver(11));
     }
   }
 
