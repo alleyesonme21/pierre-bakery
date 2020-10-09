@@ -1,27 +1,23 @@
-using System;
-
-namespace PierreBakery.ModelsP
+namespace PierreBakery.Models
 {
-
   public class Pastry 
-  {
+{
   
- public int Num { get; set; }
+  public int Num { get; set; }
   
-    public  static int costSolver(int num)  
+    public  static int pastryCost(int num)  
     {
       int Num = num;
+      int price = 2;
       
       if (Num == 1) {
-        return 2;
-      } else if (Num == 2) {
-        return 4;
+        return num * price;
       } else if (Num % 3 == 0) {
         return (Num / 3) * 5;
       } else if (Num % 3 == 1){
-        return (Num - 1) / 3 * 5 + 2;
-      } else if (Num % 3 == 2) {
-        return (Num - 2) / 3 * 5 + 2 + 2 ;
+        return (Num - 1) / 3 * 5 + price;
+      } else if (Num % 3 == price) {
+        return (Num - price) / 3 * 5 + price + price ;
       } else {
         return 0;
       }
