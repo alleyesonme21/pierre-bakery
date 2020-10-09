@@ -11,28 +11,35 @@ This program is an order form to showcase how much a user's order will be to ord
 
 _The program calculates number of bread loaves a user  enters and displays the price_
 
-* Input: 1;
-* Output:$5;
+* Input: 1
+* Output: $5
 
 _The program calculates number of 2 loaves of bread a user enters and displays the price_
 
-* Input: 2;
-* Output:$10;
+* Input: 2
+* Output: $10
+* Output: get 1 free
+
+_The program calculates number of 4 loaves of bread a user enters and displays the price_
+
+* Input: 4
+* Output: $20
+* Output: get 2 free
 
 _The program calculates number of pastries a user enters and displays the price_
 
 * Input: 1
-* Output:$2
+* Output: $2
 
 _The program calculates number of 3 pastries a user  enter and display the price_
 
-* Input: 3
-* Output:$5
+* Input: 6
+* Output: $10
 
 _If a user enter a number of 1 bread and a 3 pastries the program display_
 
 * Input:  1 + 3
-* Output:$10
+* Output: $10
 
 ## Setup/Installation Requirements;
 - Git clone 
