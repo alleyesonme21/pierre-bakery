@@ -11,7 +11,7 @@ namespace PierreBakery.Tests
   public void GetNumber_ReturnNumber_int() 
     {
       Bread orderBread = new Bread();
-      Assert.AreEqual(20, orderBread.BreadCost(4));
+      Assert.AreEqual(5, orderBread.BreadCost(1));
     }
   }
 }
