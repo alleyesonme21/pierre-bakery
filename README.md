@@ -26,6 +26,12 @@ _The program calculates number of 4 loaves of bread a user enters and displays t
 * Output: $20
 * Output: get 2 free
 
+_The program calculates number of 7 loaves of bread a user enters and displays the price_
+
+* Input: 7
+* Output: $35
+* Output: get 3 free
+
 _The program calculates number of pastries a user enters and displays the price_
 
 * Input: 1
@@ -35,6 +41,11 @@ _The program calculates number of 3 pastries a user  enter and display the price
 
 * Input: 6
 * Output: $10
+
+_The program calculates number of 3 pastries a user  enter and display the price_
+
+* Input: 7
+* Output: $35
 
 _If a user enter a number of 1 bread and a 3 pastries the program display_
 
