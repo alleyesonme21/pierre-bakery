@@ -8,7 +8,7 @@ namespace PierreBakery.Tests
   {
     [TestMethod] 
     public void GetCost_ReturnCost_int() {
-      Assert.AreEqual(10, Pastry.pastryCost(6));
+      Assert.AreEqual(2, Pastry.pastryCost(1));
     }
   }
 
