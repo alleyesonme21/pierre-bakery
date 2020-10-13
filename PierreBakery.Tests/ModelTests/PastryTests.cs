@@ -14,6 +14,10 @@ namespace PierreBakery.Tests
     public void GetCost2_ReturnCost_int() {
       Assert.AreEqual(10, Pastry.pastryCost(6));
     }
+    [TestMethod] 
+    public void GetCost3_ReturnCost_int() {
+      Assert.AreEqual(17, Pastry.pastryCost(10));
+    }
   }
 
 }
