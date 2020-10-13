@@ -10,7 +10,7 @@ public  int BreadCost(int numberOfBread )
     }
     public int TotalBread()
     {
-     return NumberOfBread / 2;
+      return NumberOfBread / 2;
     }
   }
 }  
